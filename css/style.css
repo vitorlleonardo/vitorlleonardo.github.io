@@ -1,0 +1,178 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@200;300;400;600&display=swap');
+
+/*----------------------------IMPORTAÇÔES---------------------------*/
+
+
+
+
+/*-------------------------ATRIBUTOS GLOBAIS-------------------------*/
+li {
+    list-style: none;
+}
+
+
+body {
+
+    /*
+    background-image: url("/img/photo-background.webp");
+	background-size: cover;
+	background-repeat: no-repeat;*/
+}
+
+
+a {
+    display: flex;
+    justify-content: center;
+    
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Genos', sans-serif;
+}
+/*-------------------------ATRIBUTOS GLOBAIS-------------------------*/
+
+
+
+
+
+/*----------------------------CLASSES---------------------------------*/
+.contact {
+    margin-right: 5vh;
+    border: none;
+
+    background-color: transparent;
+}
+
+.about-me {
+    display: flex;
+
+    margin-top: 15vh;
+}
+
+.typing-animation {
+    font-size: 20px;
+    flex-wrap: nowrap;
+
+    width: 100vh;
+
+    margin-top: 20vh;
+    margin-left: 10vh;
+}
+
+.front-end {
+    display: flex;
+}
+
+.meusconhecimentos img {
+    width: 50px;
+    height: 50px;
+
+    margin-left: 5vh;
+    margin-top: 5px;
+}
+
+.card {
+    margin-top: 2vh;
+    margin-left: 5vh;
+}
+
+
+.progress {
+    cursor: pointer;
+}
+
+/*----------------------------CLASSES---------------------------------*/
+
+
+
+
+
+
+/*----------------------------ID'S-------------------------------------*/
+#nerd {
+    width: 540px;
+    height: 540px;
+
+    margin-left: 10vh;
+}
+
+#tec {
+    text-align: center;
+}
+
+#logo-js {
+    border-radius: 20px;
+}
+
+#logo-bootstrap {
+    width: 70px;
+}
+/*----------------------------ID'S-------------------------------------*/
+
+
+
+
+/*-------------------------ANIMAÇÔES E TRANSIÇÔES----------------------*/
+
+/*-------------------------ANIMAÇÔES E TRANSIÇÔES----------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#abot {
+    border-right: 5px solid #000000;
+    width: fit-content;
+    padding-right: 2px;
+    animation: blink-caret 0.75s step-end infinite;
+
+    font-size: 22px;
+  }
+  
+@keyframes blink-caret {
+    from, to {
+      border-color: rgb(255, 255, 255);
+    }
+    50% {
+      border-color: #645a5a;
+    }
+}
+  
